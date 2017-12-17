@@ -1,0 +1,33 @@
+* { box-sizing:border-box; }
+html, body, div, span, h1, h2, h3, h4, h5, h6, p,
+a, em, img, strong, dl, dt, dd, ol, ul, li,
+label, table, tbody, thead, tr, th, td,
+canvas,  footer, header, nav, section, audio, video {
+margin:0; padding:0; border:0; font-size:100%; vertical-align:baseline; word-wrap:break-word; }
+input,textarea{ -webkit-appearance:none; -webkit-border-radius:0; padding:0;
+        border:0; outline:none; background:transparent; }
+body { width:100%; line-height:1; font-family:sans-serif;
+  box-sizing:border-box; background-color:#FFF; letter-spacing:-0.5px}
+ol, ul { list-style:none; }
+a { text-decoration:none; color:#000; }
+img { border:0; outline:0; vertical-align:top; }
+
+#wrap{width:100%; height:100%;}
+.scoreBox{width:232px;border:1px solid #c9c9c9;padding:10px;margin:10% auto;}
+.scoreBoxTop{vertical-align: middle;}
+.scoreBoxTop ul:after{content:'';display:block;clear: both;}
+.scoreBoxTop ul li{display: inline-block;float:left;}
+.team{width:38%;}
+.team img{display:block; margin:0 auto;}
+.teamName{padding-top:7px;text-align:center; font-size:12px;font-weight:bold;}
+
+.gameInfo{width:24%; padding-top:15px;}
+.gameInfo > * {text-align:center}
+.gameScore{font-size:25px;font-weight:bold;color:#424873;}
+.gameTime{font-size:11px;color:#919191;padding:7px 0;}
+.gameOverImg{width:48px; height:18px;margin:0 auto;background-image:url(../img/images.png); background-repeat:no-repeat; background-position:left top; text-indent:-9999px;}
+.scoreBoxBottom{width:174px; margin:0 auto;padding-top: 10px;}
+.scoreBoxBottom:after{content:'';display:block;clear:both;}
+.highlightBtn, .recordBtn{width:87px;height:27px;float:left;display:inline-block;text-indent:-9999px}
+.highlightBtn{background-image:url(../img/images.png);background-repeat:no-repeat;background-position:left -25px; }
+.recordBtn{background-image:url(../img/images.png);background-repeat:no-repeat;background-position:-87px -25px; }
